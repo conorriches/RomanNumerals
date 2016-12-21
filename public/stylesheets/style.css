@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC');
+
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
@@ -5,4 +7,27 @@ body {
 
 a {
   color: #00B7FF;
+}
+
+.container{
+	border:1px solid #aaaaaa;
+	border-radius:3px;
+	padding:0px 10px 20px 10px;
+	box-shadow: #000 0px 0px 35px -10px;
+	background:#E3F2FD;
+}
+
+.error{
+	color:red;
+	font-weight: bold;
+}
+
+.big-input{
+	font-size:50px;
+	line-height:50px;
+	height:50px;
+}
+
+.roman{
+	font-family: 'Playfair Display SC', serif;
 }

@@ -1,4 +1,4 @@
-var romanNumerals = require("../public/javascripts/romanNumerals.js");
+var romanNumerals = require("../libraries/romanNumerals.js");
 
 var assert = require('assert');
 

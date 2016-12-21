@@ -1,0 +1,62 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Roman Numeral | Home</title>
+  <meta name="description" content="Roman Numeral | Home">
+  <meta name="author" content="Conor Riches">
+  <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="stylesheets/style.css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<h1>Roman Numerals <small>by Conor Riches</small></h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12">
+				<h3>Convert between Roman numerals and numbers <small>In just one click!</small></h3>
+				<div class="row">
+					<div class="col-md-6">
+						<h3>Roman Numeral</h3>
+						<p>Enter Roman numerals to convert, or see the result of a number conversion here</p>
+						<input class="form-control big-input roman" type="text" id="js-romanInput"/>
+						<div id="js-romanError" class="hidden">
+							There was an error with the value - please check it is correct:<br/>
+							<li>It must be Roman numerals</li>
+							<li>It must be between 1 and 3999</li>
+							<li>It must be a valid string of Roman numerals</li>
+						</div>
+						<input class="btn" type="button" value="Convert to Number" id="js-convertRoman"/>
+						
+					</div>
+					<div class="col-md-6">
+						<h3>Number</h3>
+						<p>Enter a number to convert, or see the result of a Roman numeral conversion here</p>
+						<input class="form-control big-input" type="text" id="js-numberInput"/>
+						<div id="js-numberError" class="hidden">
+							There was an error with the value - please check it is correct:<br/>
+							<li>It must be a number</li>
+							<li>It must be between 1 and 3999</li>
+						</div>
+						<input class="btn" type="button" value="Convert to Roman Numerals" id="js-convertNumber"/>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12">
+
+			</div>
+		</div>
+	</div>
+
+	<script src="jquery/dist/jquery.min.js"></script>
+	<script src="javascripts/romanNumerals.js"></script>
+</body>
+</html>
