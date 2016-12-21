@@ -24,26 +24,40 @@
 					<div class="col-md-6">
 						<h3>Roman Numeral</h3>
 						<p>Enter Roman numerals to convert, or see the result of a number conversion here</p>
-						<input class="form-control big-input roman" type="text" id="js-romanInput"/>
-						<div id="js-romanError" class="hidden">
-							There was an error with the value - please check it is correct:<br/>
-							<li>It must be Roman numerals</li>
-							<li>It must be between 1 and 3999</li>
-							<li>It must be a valid string of Roman numerals</li>
-						</div>
-						<input class="btn" type="button" value="Convert to Number" id="js-convertRoman"/>
-						
+						<fieldset>
+						<legend>Enter Roman numerals to convert to a number</legend>
+							<input class="form-control big-input roman" type="text" id="js-romanInput"/>
+							<div id="js-romanError" class="hidden">
+								There was an error with the value - please check it is correct:<br/>
+								<li>It must be Roman numerals</li>
+								<li>It must be between 1 and 3999</li>
+								<li>It must be a valid string of Roman numerals</li>
+							</div>
+							<input 
+							class="btn" 
+							type="button"
+							aria-label="Convert to Number"
+							value="Convert to Number" 
+							id="js-convertRoman"/>
+						</fieldset>
 					</div>
 					<div class="col-md-6">
 						<h3>Number</h3>
 						<p>Enter a number to convert, or see the result of a Roman numeral conversion here</p>
-						<input class="form-control big-input" type="text" id="js-numberInput"/>
-						<div id="js-numberError" class="hidden">
-							There was an error with the value - please check it is correct:<br/>
-							<li>It must be a number</li>
-							<li>It must be between 1 and 3999</li>
-						</div>
-						<input class="btn" type="button" value="Convert to Roman Numerals" id="js-convertNumber"/>
+						<fieldset>
+						<legend>Enter a number to convert to Roman numerals</legend>
+							<input class="form-control big-input" type="text" id="js-numberInput"/>
+							<div id="js-numberError" class="hidden">
+								There was an error with the value - please check it is correct:<br/>
+								<li>It must be a number</li>
+								<li>It must be between 1 and 3999</li>
+							</div>
+							<input class="btn" 
+							type="button"  
+							aria-label="Convert to Roman Numerals" 
+							value="Convert to Roman Numerals" 
+							id="js-convertNumber"/>
+						</fieldset>
 						
 					</div>
 				</div>

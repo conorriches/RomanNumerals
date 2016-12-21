@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var romanNumerals = require("../libraries/romanNumerals.js");
+var romanNumerals = require("../libraries/RomanNumeralGenerator.js");
 
 /* GET request to parse roman and produce number */
 router.get('/parse/:roman', function(req, res, next) {
