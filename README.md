@@ -18,5 +18,5 @@ Then, once it's started running, navigate to http://localhost:3000
 ##Testing the solution
 This was built with unit tests using Mocha. To test the app and see how it fares, run:
 `npm test`
-This will run a custom script that then runs the tests.
+This will run a custom Mocha script that then runs the tests.
 
